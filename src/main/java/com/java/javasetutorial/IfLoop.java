@@ -18,8 +18,9 @@ public class IfLoop {
     public static void main(String[] args){
         
         int num = 5;
+        final int moduloIndex = 2;
         
-        if (num % 2 == 0){
+        if (num % moduloIndex == 0){
             System.out.println(num + result_string_even);
         } 
         else {
