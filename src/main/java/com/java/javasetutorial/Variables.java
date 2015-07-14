@@ -6,7 +6,7 @@
 package com.java.javasetutorial;
 
 /**
- *
+ * This class shows how different types of variables can be decalared
  * @author aveselinovic
  */
 public class Variables {

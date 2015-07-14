@@ -6,7 +6,7 @@
 package com.java.javasetutorial;
 
 /**
- *
+ * This class shows some basic examples of using String in Java
  * @author aveselinovic
  */
 public class StringExample {

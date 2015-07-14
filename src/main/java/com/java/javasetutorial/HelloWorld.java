@@ -6,7 +6,7 @@
 package com.java.javasetutorial;
 
 /**
- *
+ * The first programm in Java 
  * @author aveselinovic
  */
 public class HelloWorld {
