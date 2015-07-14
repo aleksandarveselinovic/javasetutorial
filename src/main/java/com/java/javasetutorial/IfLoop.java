@@ -18,13 +18,12 @@ public class IfLoop {
     public static void main(String[] args){
         
         int num = 5;
-       
         
-        if (num%2 == 0){
-            System.out.println(num+result_string_even);
+        if (num % 2 == 0){
+            System.out.println(num + result_string_even);
         } 
         else {
-            System.out.println(num+result_string_odd);
+            System.out.println(num + result_string_odd);
         }
         
     }
