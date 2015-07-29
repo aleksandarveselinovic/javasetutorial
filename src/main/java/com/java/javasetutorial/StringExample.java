@@ -5,6 +5,7 @@
  */
 package com.java.javasetutorial;
 
+
 /**
  * This class shows some basic examples of using String in Java
  * @author aveselinovic
@@ -15,11 +16,11 @@ public class StringExample {
         
        int myInt = 4;
        
-       String text = "Hello";
-       String blank = " ";
-       String name = "Aleksandar";
+       String text = null;
+       String blank = null;
+       String name = null;
        
-       String greeting = text + blank + name;
+       final String greeting = text + blank + name;
        
        System.out.println(greeting);
        System.out.println("Hello"+ " "+"Aleksandar");

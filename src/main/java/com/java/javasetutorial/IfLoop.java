@@ -4,16 +4,13 @@
  * and open the template in the editor.
  */
 package com.java.javasetutorial;
-
+import  com.java.javasetutorial.util.TutorialConstants;
 /**
  * A little programm which says if declared number is even or odd
  * @author aveselinovic
  */
 public class IfLoop {
     
-    // Here we play with static String variables,will talk more abotu later
-    static final String result_string_odd = " is odd number";
-    static final String result_string_even = " is even number";
       
     public static void main(String[] args){
         
@@ -21,10 +18,10 @@ public class IfLoop {
         final int moduloIndex = 2;
         
         if (num % moduloIndex == 0){
-            System.out.println(num + result_string_even);
+            System.out.println(num + TutorialConstants.EVEN_NUMBER);
         } 
         else {
-            System.out.println(num + result_string_odd);
+            System.out.println(num + TutorialConstants.ODD_NUMBER);
         }
         
     }
