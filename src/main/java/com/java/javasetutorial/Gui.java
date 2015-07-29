@@ -19,11 +19,11 @@ public class Gui {
         
         JFrame frame = new JFrame();
         
-        JButton button = new JButton("makaca,sakacabakaca i bebaca");
+        JButton button = new JButton("hello world");
         
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().add(button);
-    frame.setSize(1000,400);
+        frame.setSize(400,400);
         frame.setVisible(true);
     
 }
